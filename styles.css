@@ -1,0 +1,62 @@
+body   {color:rgb(255, 255, 255);
+   background:rgb(50, 50, 50);
+
+margin: 0px 
+font-family: "Montserrat", sans-serif;
+}
+header{
+border-bottom: solid 2 px rgb(98, 98, 236);
+padding: 20px;
+font-size: 36px; color: rgb(163, 31, 31)
+}
+
+
+section {
+ background-color: rgb(57, 50, 97); 
+ padding-bottom: 80px;
+ margin-top:80px;
+ display: flex;
+ justify-content: center;
+
+
+}
+
+chamada-texto{
+ margin-right: 15%;
+
+
+}
+h1 {
+font-size: 35px;
+
+}
+p {
+font-size: 18px;
+
+}
+
+.categoria-videos {
+   display: flex;
+   overflow-x: auto;
+   gap: 15px;
+}
+
+.categoria {
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-top: 75px;
+}
+
+.categoria-videos img {
+   opacity: 0.5;
+   height: 200px;
+}
+
+.categoria-videos img:hover {
+   opacity: 1.0;
+   border: 3px solid rgb(30, 135, 116);
+}
+
+.categoria h2 {
+   color: rgb(1, 57, 131);
+}
